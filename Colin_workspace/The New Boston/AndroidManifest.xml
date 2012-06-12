@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.segal.adam"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".startingPoint"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.segal.adam.STARTINGPOINT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.segal.adam.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TextPlay"
+            android:label="Text Play" >
+        </activity>
+        <activity
+            android:name=".Email"
+            android:label="Email" >
+        </activity>
+        <activity
+            android:name=".Camera"
+            android:label="Camera"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Data"
+            android:label="Data" >
+        </activity>
+        <activity
+            android:name=".OpenedClass"
+            android:label="Open" >
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.segal.adam.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.segal.adam.PREFS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".GFX"
+            android:label="GFX" >
+        </activity>
+        <activity
+            android:name=".GFXSurface"
+            android:label="GFXSurface" >
+        </activity>
+        <activity
+            android:name=".SoundStuff"
+            android:label="SoundStuff" >
+        </activity>
+        <activity
+            android:name=".Slider"
+            android:label="Slider" >
+        </activity>
+        <activity
+            android:name=".Tabs"
+            android:label="Tabs" >
+        </activity>
+        <activity
+            android:name=".SimpleBrowser"
+            android:label="SimpleBrowser" >
+        </activity>
+        <activity
+            android:name=".Flipper"
+            android:label="Flipper" >
+        </activity>
+        <activity
+            android:name=".SharedPref"
+            android:label="SharedPref" >
+        </activity>
+                <activity
+            android:name=".InternalData"
+            android:label="InternalData" >
+        </activity>
+                        <activity
+            android:name=".ExternalData"
+            android:label="ExternalData" >
+        </activity>
+        <activity
+            android:name=".SQLLiteExample"
+            android:label="SQLLiteExample" >
+        </activity>
+                <activity
+            android:name=".link"
+            android:label="link" >
+        </activity>        
+        <activity 
+            android:name=".SQLView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.segal.adam.SQLView" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity 
+            android:name=".LinkTo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="icanwritewhateveriwant" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+</manifest>
